@@ -1,0 +1,113 @@
+.tour_card {
+    width: 256px;
+}
+
+.tour_card_main {
+    width: 100%;
+    height: 220px;
+    padding-top: 16px;
+}
+
+.tour_card_liked {
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: 16px;
+    background-color: var(--neutrals-8);
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour_card_link {
+    display: none;
+    width: 107px;
+    margin: 38px auto 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: var(--neutrals-8);
+    border-radius: 90px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--neutrals-2);
+}
+
+.tour_card_main:hover {
+    .tour_card_link {
+        display: block;
+    }
+}
+
+.tour_card_title {
+    margin-top: 20px;
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--neutrals-1);
+}
+
+.tour_card_price {
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--neutrals-6);
+
+    .price_name {
+        font-size: 12px;
+        line-height: 20px;
+        color: var(--neutrals-3);
+    }
+
+    .price_info {
+        display: flex;
+        gap: 6px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .old_price {
+        text-decoration: line-through;
+        color: var(--neutrals-5);
+    }
+
+    .sale_price {
+       color: var(--primary-1);
+    }
+}
+
+.tour_card_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.tour_card_duration {
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--neutrals-4);
+}
+
+.tour_card_rating {
+    padding-left: 24px;
+    background: url("/images/star.png") no-repeat;
+    background-position: 0;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--neutrals-2);
+}

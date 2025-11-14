@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --neutrals-1: #141416;
+  --neutrals-2: #23262F;
+  --neutrals-3: #353945;
+  --neutrals-4: #777E90;
+  --neutrals-5: #B1B5C3;
+  --neutrals-6: #E6E8EC;
+  --neutrals-7: #F4F5F6;
+  --neutrals-8: #FCFCFD;
+  --primary-1: #4AC63F;
+  --primary-2: #F6C92D;
+  --primary-3: #FD7FE9;
+  --primary-4: #62B3FD;
+  --secondary-1: #CDEDFF;
+  --secondary-2: #FFEBDF;
+  --secondary-3: #FFD5FB;
+  --secondary-4: #D6F4BF;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #FCFCFD;
+  font-family: "Poppins", sans-serif;
+}
+
+.d-b {
+  display: block;
+}
+
+.d-f {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.d-n {
+  display: none;
+}
+
+.d-b {
+  display: block;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.btn-clear {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.cur-p {
+  cursor: pointer;
+}
+
+.h1-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: -1.92px;
+}
+
+.h2-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1.92px;
+}
+
+.text {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1.92px;
+}
+
+.above {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
