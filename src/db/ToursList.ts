@@ -87,6 +87,16 @@ const ToursList: TTour[] = [
         salePrice: '548',
         duration: "Tue, Jul 20 - Fri, Jul 23",
         rating: "4.9"
+    },
+
+    {
+        id: 9,
+        image: '/images/catalog/9.png',
+        title: "Venice, Rome & Milan",
+        price: "699",
+        salePrice: '548',
+        duration: "Tue, Jul 20 - Fri, Jul 23",
+        rating: "4.9"
     }
 ]
 

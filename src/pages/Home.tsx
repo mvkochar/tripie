@@ -48,7 +48,7 @@ const Home = () => {
         </div>
         <div className="home-weekly-box d-f">
           {
-            ToursList.map((tour) => {
+            ToursList.filter((elem)=> elem.id < 9).map((tour) => {
               return (
                 <TourCard
                   key={`weekly-tour${tour.id}`}

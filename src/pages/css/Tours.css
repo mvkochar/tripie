@@ -1,0 +1,389 @@
+.tours-main {
+    padding-top: 80px;
+    padding-bottom: 140px;
+    background: url("/images/tours-main-bg.png") no-repeat;
+
+    .h1-title {
+        text-align: center;
+        color: var(--neutrals-8);
+    }
+}
+
+.tours-search {
+    width: 1120px;
+    margin-top: -104px;
+    margin-left: 160px;
+    padding: 16px 24px;
+    background-color: var(--neutrals-8);
+    border: 1px solid var(--neutrals-8);
+    box-shadow: 0px 40px 64px -32px rgba(15, 15, 15, 0.1);
+    backdrop-filter: blur(16px);
+    border-radius: 24px;
+}
+
+.tours-search-fm {
+    padding-bottom: 44px;
+    border-bottom: 1px solid var(--neutrals-6);
+
+    input,
+    label,
+    button {
+        display: block;
+    }
+
+    label {
+        padding-left: 42px;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--neutrals-2);
+    }
+
+    input {
+        width: 100%;
+        margin-left: 43px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--neutrals-2);
+
+        &::placeholder {
+            color: var(--neutrals-4);
+        }
+
+    }
+
+    >div {
+        padding-left: 20px;
+    }
+
+    >div:nth-child(1) {
+        width: 308px;
+
+        label {
+            background: url("/images/location.png") no-repeat;
+            background-position: 0;
+        }
+    }
+
+    >div:nth-child(2) {
+        width: 220px;
+
+        label {
+            background: url("/images/activity.png") no-repeat;
+            background-position: 0;
+        }
+    }
+
+    >div:nth-child(3) {
+        width: 220px;
+
+        label {
+            background: url("/images/calendar.png") no-repeat;
+            background-position: 0;
+        }
+    }
+
+    >div:nth-child(4) {
+        width: 220px;
+
+        label {
+            background: url("/images/guest.png") no-repeat;
+            background-position: 0;
+        }
+    }
+}
+
+.tours-search-more {
+    width: fit-content;
+    margin: 16px auto 0;
+}
+
+.tours-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 160px;
+    gap: 32px;
+
+    >div:nth-child(2) {
+        width: 832px;
+    }
+}
+
+.tours-filters {
+    width: 256px;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.tours-filters-bl {
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--neutrals-6);
+
+    .filters-bl-price {
+        margin-top: 28px;
+    }
+
+    &:nth-child(1) {
+        padding-bottom: 28px;
+    }
+}
+
+.tours-filters .input-bl {
+    margin-bottom: 24px;
+}
+
+.tours-filters .input-bl__last {
+    margin-bottom: 0;
+}
+
+.tours-filters-bl .css-fwi9by-MuiTypography-root {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--neutrals-2);
+}
+
+.tours-filters .filters-bl-title {
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: var(--neutrals-1);
+}
+
+.tours-filters .input-bl-title {
+    font-size: 14px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: var(--neutrals-5);
+}
+
+.tours-filters .select-wr {
+    width: 256px;
+    margin-top: 12px;
+    padding-left: 16px;
+    padding-right: 8px;
+    border: 2px solid var(--neutrals-6);
+    border-radius: 12px;
+}
+
+.tours-filters select {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--neutrals-2);
+}
+
+.tours-filters .select-wr__gray {
+    background-color: var(--neutrals-7);
+
+    select {
+        color: var(--neutrals-5);
+    }
+}
+
+.tours-filters-bl .filters-bl-score {
+    margin-top: 24px;
+
+    .check-bl {
+        gap: 12px;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    input {
+        display: block;
+        width: 24px;
+        height: 24px;
+        appearance: none;
+        border: 2px solid var(--neutrals-5);
+        border-radius: 6px;
+
+        &:checked {
+            background: var(--neutrals-1) url("/images/check2.png") no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            border-color: var(--neutrals-1);
+        }
+    }
+
+    .check-bl-last {
+        margin-bottom: 0;
+    }
+}
+
+.tours-filters-reset {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: transparent;
+    border: 2px solid var(--neutrals-6);
+    border-radius: 90px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--neutrals-2);
+}
+
+.tours-tabs {
+    gap: 8px;
+
+    .tab-btn {
+        width: fit-content;
+        height: fit-content;
+        padding: 6px 16px;
+        background-color: transparent;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--neutrals-4);
+    }
+
+    .tab-btn__active {
+        background-color: var(--neutrals-2);
+        color: var(--neutrals-8);
+    }
+}
+
+.tours-sort {
+    .select-wr {
+        width: 256px;
+        padding-left: 16px;
+        padding-right: 8px;
+        border: 1px solid var(--neutrals-6);
+        border-radius: 12px;
+    }
+
+    select {
+        width: 100%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--neutrals-2);
+    }
+}
+
+.tours-box {
+    margin-top: 48px;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 32px;
+}
+
+.tours-more {
+    display: block;
+    width: 138px;
+    margin: 48px auto 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 52px;
+    background: transparent url("/public/images/loading.png") no-repeat 24px;
+    border: 2px solid var(--neutrals-6);
+    border-radius: 90px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    color: var(--neutrals-2);
+}
+
+.tours-discover {
+    margin-top: 200px;
+    margin-left: 160px;
+
+    .h2-title {
+        color: var(--neutrals-2);
+    }
+}
+
+.tours-discover-desc {
+    width: 544px;
+    margin-top: 12px;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: .01em;
+    color: var(--neutrals-4);
+}
+
+.tours-discover-box {
+    margin-top: 64px;
+    gap: 32px;
+}
+
+.tours-newsletter {
+    margin-top: 100px;
+    margin-left: 160px;
+    gap: 32px;
+
+    .above {
+        color: var(--neutrals-4);
+    }
+
+    .h2-title {
+        width: 362px;
+        margin-top: 16px;
+        color: var(--neutrals-2);
+    }
+}
+
+.tours-newsletter-desc {
+    width: 448px;
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--neutrals-4);
+}
+
+.tours-newsletter-fm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 352px;
+    margin-top: 32px;
+    padding-left: 16px;
+    padding-right: 8px;
+    border: 2px solid var(--neutrals-6);
+    border-radius: 90px;
+
+    input {
+        display: block;
+        width: 70%;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border: none;
+        outline: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--neutrals-4);
+
+        &::placeholder {
+            color: var(--neutrals-4);
+        }
+    }
+}
