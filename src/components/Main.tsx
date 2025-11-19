@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { Destination, Home, Tours } from "../pages"
+import { Destination, Home, Tours, VirtualTour } from "../pages"
 
 const Main = () => {
     return (
@@ -15,6 +15,10 @@ const Main = () => {
             <Route
                 path="destination"
                 element={<Destination />}
+            />
+            <Route
+                path="virtual-tour"
+                element={<VirtualTour/>}
             />
         </Routes>
     )
