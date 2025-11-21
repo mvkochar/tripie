@@ -3,5 +3,6 @@ import Main from "./Main";
 import Footer from "./Footer";
 import TourCard from "./TourCard/TourCard";
 import TipCard from "./TipCard/TipCard";
+import BlogItem from "./BlogItem/BlogItem";
 
-export { Header, Main, Footer, TourCard, TipCard }
+export { Header, Main, Footer, TourCard, TipCard, BlogItem }

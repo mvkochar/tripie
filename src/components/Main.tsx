@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { Destination, Home, Tours, VirtualTour } from "../pages"
+import { Blog, Destination, Home, Tours, VirtualTour } from "../pages"
 
 const Main = () => {
     return (
@@ -18,7 +18,11 @@ const Main = () => {
             />
             <Route
                 path="virtual-tour"
-                element={<VirtualTour/>}
+                element={<VirtualTour />}
+            />
+            <Route
+                path="blog"
+                element={<Blog />}
             />
         </Routes>
     )
