@@ -1,0 +1,165 @@
+.contact-main {
+    padding-top: 100px;
+    border-top: 1px solid var(--neutrals-6);
+    text-align: center;
+
+    .h2-title {
+        color: var(--neutrals-1);
+    }
+}
+
+.contact-main-desc {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--neutrals-4);
+}
+
+.contact-content {
+    margin-top: 80px;
+    margin-left: 160px;
+    padding-top: 80px;
+    padding-bottom: 47px;
+    padding-left: 96px;
+    padding-right: 96px;
+    background-color: var(--neutrals-8);
+    border: 1px solid var(--neutrals-6);
+    box-shadow: 0px 64px 64px -48px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+
+    .caption,
+    .desc {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .caption {
+        margin-top: 16px;
+        color: var(--neutrals-4);
+    }
+
+    .desc {
+        color: var(--neutrals-2);
+    }
+}
+
+.contact-touch {
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+    .h3-title {
+        text-align: center;
+        color: var(--neutrals-2);
+    }
+}
+
+.contact-touch-desc {
+    width: 448px;
+    margin: 24px auto 0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--neutrals-4);
+}
+
+.contact-touch-fm {
+    width: 448px;
+    margin: 24px auto 0;
+
+    .input-bl {
+        margin-bottom: 24px;
+    }
+
+    label,
+    input,
+    textarea,
+    button {
+        display: block;
+    }
+
+    label {
+        margin-bottom: 12px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: var(--neutrals-5);
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding-top: 12px;
+        padding-left: 16px;
+        background-color: transparent;
+        border: 2px solid var(--neutrals-6);
+        border-radius: 12px;
+        outline: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--neutrals-4);
+
+        &::placeholder {
+            color: var(--neutrals-4);
+        }
+    }
+
+    input {
+        padding-bottom: 12px;
+    }
+
+    textarea {
+        height: 126px;
+        resize: none;
+    }
+
+    .check-bl {
+        gap: 12px;
+
+        input {
+            width: 24px;
+            height: 24px;
+            appearance: none;
+            border: 1px solid var(--neutrals-6);
+            border-radius: 6px;
+
+            &:checked {
+                background: var(--neutrals-1) url("/images/check2.png") no-repeat;
+                background-position-y: 6px;
+            }
+        }
+
+        label {
+            margin-bottom: 0;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-transform: none;
+            color: var(--neutrals-4);
+        }
+    }
+
+    button {
+        width: 200px;
+        margin: 24px auto 0;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background-color: var(--primary-1);
+        border: none;
+        border-radius: 90px;
+        cursor: pointer;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: var(--neutrals-8);
+    }
+}
+
+.contact-touch-social {
+    width: fit-content;
+    margin: 24px auto 0;
+    gap: 32px;
+}
