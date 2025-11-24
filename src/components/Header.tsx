@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import SignDialog from './SignDialog/SignDialog'
 import './Header.css'
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
       </nav>
       <div className="header-actions d-f">
         <button className='header-login'>Login</button>
-        <button className='header-sign'>Sign up</button>
+        <SignDialog/>
       </div>
     </header>
   )

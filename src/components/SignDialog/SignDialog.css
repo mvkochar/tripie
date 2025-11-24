@@ -1,0 +1,181 @@
+.sign-pic {
+    width: 448px;
+    height: 1024px;
+    padding-top: 40px;
+    padding-left: 40px;
+    background: url("/images/signup-pic.png") no-repeat;
+}
+
+.sign-info {
+    width: calc(1440px - 448px);
+    padding-top: 213px;
+    background: url("/images/signup-bg.png") no-repeat;
+    background-position-y: 91px;
+    background-position-x: 267px;
+}
+
+.sign-logo {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.sign-title {
+    margin-top: 32px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -.01em;
+    text-align: center;
+    color: var(--neutrals-2);
+}
+
+.sign-desc {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--neutrals-4);
+}
+
+.sign-social {
+    width: fit-content;
+    margin: 32px auto 0;
+    gap: 12px;
+}
+
+.sign-google,
+.sign-apple {
+    display: block;
+    width: 144px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 2px solid var(--neutrals-6);
+    border-radius: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--neutrals-2);
+}
+
+.sign-google {
+    padding-left: 62.5px;
+    background: url("/images/google.png") no-repeat 30.5px;
+}
+
+.sign-apple {
+    padding-left: 58.5px;
+    background: url("/images/apple.png") no-repeat 26.5px;
+}
+
+.sign-fm {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+
+    label,
+    input,
+    button {
+        display: block;
+    }
+
+    label {
+        font-size: 12px;
+        line-height: 20px;
+        color: var(--neutrals-4);
+    }
+
+    input {
+        width: 352px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        border: 1px solid var(--neutrals-6);
+        border-radius: 40px;
+        outline: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--neutrals-4);
+
+        &::placeholder {
+            color: var(--neutrals-4);
+        }
+    }
+
+    .pwd-wr {
+        width: 352px;
+        padding-left: 24px;
+        padding-right: 16px;
+        border: 1px solid var(--neutrals-6);
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input {
+            width: 90%;
+            padding-left: 0;
+            border: none;
+        }
+
+        .pwd-btn {
+            width: fit-content;
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    button {
+        width: 120px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: var(--primary-1);
+        border: none;
+        border-radius: 90px;
+        cursor: pointer;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--neutrals-8);
+    }
+
+    .forgot-btn {
+        width: fit-content;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: var(--neutrals-2);
+    }
+
+}
+
+.sign-login {
+    width: fit-content;
+    margin: 32px auto 0;
+    gap: 4px;
+}
+
+.sign-login-name {
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--neutrals-3);
+}
+
+.sign-login-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--primary-1);
+}
