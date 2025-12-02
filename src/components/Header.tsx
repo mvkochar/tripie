@@ -17,7 +17,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="header-actions d-f">
-        <button className='header-login'>Login</button>
+        <SignDialog account/>
         <SignDialog/>
       </div>
     </header>

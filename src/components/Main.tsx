@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { About, Blog, Contact, Destination, Home, Tours, VirtualTour } from "../pages"
+import { About, Blog, Contact, Destination, Home, TourDetails, Tours, VirtualTour } from "../pages"
 
 const Main = () => {
     return (
@@ -30,7 +30,11 @@ const Main = () => {
             />
             <Route
                 path="contact"
-                element={<Contact/>}
+                element={<Contact />}
+            />
+            <Route
+                path="tour-details"
+                element={<TourDetails />}
             />
         </Routes>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './TourCard.module.css'
+import { Link } from 'react-router-dom'
 
 type TourCardProps = {
     id: number
@@ -27,7 +28,7 @@ const TourCard = ({ image, title, price, salePrice, duration, rating }: TourCard
                 <button className={classes.tour_card_liked} onClick={handleLiked}>
                     <img src={liked ? "/images/heart-filled.png" : "/images/heart.png" } alt="heart" />
                 </button>
-                <a href="" className={classes.tour_card_link}>Explore</a>
+                <Link to="/tour-details" className={classes.tour_card_link}>Explore</Link>
             </div>
             <h3 className={classes.tour_card_title}>{title}</h3>
             <div className={classes.tour_card_price}>

@@ -15,13 +15,16 @@ const style = {
     p: 0,
 };
 
+type SignDialogProps = {
+    account?: boolean
+}
 
-const SignDialog = () => {
+const SignDialog = ({ account = false }: SignDialogProps) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
-    const [haveLogin, setHaveLogin] = React.useState(false)
+    const [haveLogin, setHaveLogin] = React.useState(account)
     const handleLogin = () => {
         setHaveLogin((prevState) => {
             return (
@@ -41,7 +44,9 @@ const SignDialog = () => {
 
     return (
         <div>
-            <button className='header-sign' onClick={handleOpen}>Sign up</button>
+            <button className={haveLogin ? 'header-login' : 'header-sign'} onClick={handleOpen}>
+                {haveLogin ? 'Login' : ' Sign up'}
+            </button>
             <Modal
                 open={open}
                 onClose={handleClose}
