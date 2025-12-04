@@ -1,5 +1,8 @@
 import { Route, Routes } from "react-router-dom"
-import { About, Blog, Contact, Destination, Home, TourDetails, Tours, VirtualTour } from "../pages"
+import {
+    About, Blog, Contact, Destination, Home, Post,
+    TourDetails, Tours, VirtualTour
+} from "../pages"
 
 const Main = () => {
     return (
@@ -35,6 +38,10 @@ const Main = () => {
             <Route
                 path="tour-details"
                 element={<TourDetails />}
+            />
+            <Route
+                path="post"
+                element={<Post />}
             />
         </Routes>
     )
